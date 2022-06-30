@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photolibs",
+  "info": {
+    "singularName": "photolib",
+    "pluralName": "photolibs",
+    "displayName": "photolib"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
